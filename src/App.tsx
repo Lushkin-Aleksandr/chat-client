@@ -5,7 +5,8 @@ import { Route, Routes } from 'react-router-dom'
 import { Home } from './components/Home/Home'
 import { ChatPage } from './components/ChatPage/ChatPage'
 
-const socket = io(process.env.BACK_URL || 'http://localhost:5000')
+const BACK_URL = process.env.BACK_URL || 'http://localhost:5000'
+const socket = io(BACK_URL)
 
 function App() {
   return (

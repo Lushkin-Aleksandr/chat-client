@@ -1,0 +1,15 @@
+.sendIcon {
+  width: 40px;
+  height: 40px;
+  fill: rgb(134, 167, 255);
+}
+.sendIcon:hover {
+  fill: rgb(209, 222, 255);
+}
+
+@media screen and (max-width: 360px) {
+  .sendIcon {
+    width: 30px;
+    height: 30px;
+  }
+}

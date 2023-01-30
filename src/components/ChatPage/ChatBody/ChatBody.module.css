@@ -1,0 +1,49 @@
+.messageContainer {
+    width: 100%;
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    overflow-y: scroll;
+}
+.messageChats:not(:nth-last-of-type(2)) {
+    margin-bottom: 10px;
+}
+.messageSender {
+    background-color: rgb(209, 222, 255);
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    font-size: 15px;
+}
+.messageRecipient {
+    background-color: #f5f6fa;
+    color: #373737;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.messageSender p,
+.messageRecipient p {
+    word-break: break-word;
+}
+
+.messageChats > p {
+    font-size: 13px;
+    color: #626262;
+}
+.senderName {
+    text-align: right;
+}
+
+@media screen and (max-width: 360px) {
+    .messageContainer {
+        padding: 15px;
+    }
+    .messageSender,
+    .messageRecipient {
+        max-width: 280px;
+    }
+}
+

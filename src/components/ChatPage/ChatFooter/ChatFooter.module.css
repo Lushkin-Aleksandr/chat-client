@@ -1,0 +1,36 @@
+.chatFooter {
+    border-top: 1px solid #e5e9f2;
+    padding: 10px;
+}
+.form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.messageInput {
+    flex-grow: 1;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+.sendMessageBtn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 360px) {
+    .chatFooter,
+    .messageInput {
+        padding: 10px;
+    }
+
+    .messageInput {
+        width: 70%;
+    }
+}

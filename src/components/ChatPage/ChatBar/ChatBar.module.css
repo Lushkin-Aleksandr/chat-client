@@ -1,0 +1,31 @@
+.chatBar {
+  height: 100%;
+  background-color: #f8f9fa;
+  flex: 0.2;
+  border-right: 1px solid #e5e9f2;
+}
+@media screen and (max-width: 500px) {
+  .chatBar {
+    display: none;
+  }
+}
+.logoWrapper {
+  background: #fff;
+  padding: 20px;
+}
+.content {
+  padding: 20px;
+}
+.header {
+  margin-bottom: 10px;
+}
+.activeUsers > * {
+  margin-bottom: 10px;
+  color: #607eaa;
+  font-size: 14px;
+}
+.online__users > * {
+  margin-bottom: 10px;
+  color: rgb(238, 102, 102);
+  font-style: italic;
+}

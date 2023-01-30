@@ -1,0 +1,38 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e5e9f2
+}
+.leaveChatBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background: rgb(255, 187, 187)
+}
+.leaveChatBtn:hover {
+    background: rgb(178, 188, 215);
+}
+.leaveIcon {
+    width: 30px;
+    height: 30px;
+}
+.typingStatus {
+    bottom: 50px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+@media screen and (max-width: 360px) {
+    .header {
+        padding: 5px 10px;
+    }
+    .btnText {
+        display: none;
+    }
+}
